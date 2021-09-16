@@ -5,7 +5,7 @@ export default {
 		return {
 			address: "18 avenue du Beurre, Paris, France",
 			email: "hello@mobisure.com",
-			phone: "01 88 88 88 88"
+			phone: "01 88 88 85 87"
 		}
 	}
 }
