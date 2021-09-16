@@ -1,16 +1,26 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/contact">Contact</router-link>
+    <CommonTop/>
+    <Nav />
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px;margin-top:43px;">
+      <router-view />  
     </div>
-    <router-view />
+    <Footer/>
   </div>
 </template>
 
 <script>
+import CommonTop from './components/CommonTop.vue'
+import Nav from './components/Nav.vue'
+import Footer from './components/Footer.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    CommonTop,
+    Nav,
+    Footer
+  }
 }
 </script>
 
