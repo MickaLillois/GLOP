@@ -19,7 +19,7 @@ export default {
   components: {
     CommonTop,
     Nav,
-    Footer
+    Footer 
   }
 }
 </script>
